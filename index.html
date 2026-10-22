@@ -60,7 +60,7 @@
         }
         .route-item {
             background-color: #0F172A;
-            border: 1px solid #1E293B;
+            border: 1px solid #334155;
             border-radius: 6px;
             padding: 12px;
             margin-bottom: 10px;
@@ -84,6 +84,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            margin-bottom: 4px;
         }
     </style>
 </head>
@@ -120,19 +121,20 @@
                 return;
             }
 
-            // Agrupar rutas por ADES
-            const grouped = routes.reduce((acc, curr) => {
-                if (!acc[curr.ades]) {
-                    acc[curr.ades] = {
-                        categoria: curr.categoria,
+            // Agrupar rutas estrictamente por ADES normalizado (mayúsculas y sin espacios extra)
+            const grouped = {};
+            routes.forEach(r => {
+                const adesKey = r.ades.trim().toUpperCase();
+                if (!grouped[adesKey]) {
+                    grouped[adesKey] = {
+                        categoria: r.categoria,
                         items: []
                     };
                 }
-                acc[curr.ades].items.push(curr);
-                return acc;
-            }, {});
+                grouped[adesKey].items.push(r);
+            });
 
-            // Generar HTML agrupado
+            // Generar HTML agrupado en una sola tarjeta por ADES
             container.innerHTML = Object.keys(grouped).map(ades => {
                 const group = grouped[ades];
                 const itemsHtml = group.items.map(r => `
@@ -142,7 +144,7 @@
                             <span style="font-size: 0.85rem; color: #94A3B8;">RFL: ${r.rfl}</span>
                         </div>
                         <div class="route-details">
-                            <p><strong>Ruta:</strong> ${r.route}</p>
+                            <p style="margin: 0;"><strong>Ruta:</strong> ${r.route}</p>
                         </div>
                     </div>
                 `).join('');
@@ -161,7 +163,11 @@
 
         // Filtrado dinámico
         document.getElementById('searchInput').addEventListener('input', (e) => {
-            const query = e.target.value.toLowerCase();
+            const query = e.target.value.toLowerCase().trim();
+            if (query === '') {
+                renderRoutes(rutasData);
+                return;
+            }
             const filtered = rutasData.filter(r => 
                 r.ades.toLowerCase().includes(query) || 
                 r.type.toLowerCase().includes(query) ||
@@ -171,11 +177,14 @@
             renderRoutes(filtered);
         });
 
-        // Registrar el Service Worker para soporte offline
+        // Registrar el Service Worker y forzar actualización
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
                 navigator.serviceWorker.register('./sw.js')
-                    .then(reg => console.log('Service Worker registrado:', reg.scope))
+                    .then(reg => {
+                        console.log('Service Worker registrado:', reg.scope);
+                        reg.update(); // Fuerza a buscar actualizaciones del SW
+                    })
                     .catch(err => console.log('Error en Service Worker:', err));
             });
         }
