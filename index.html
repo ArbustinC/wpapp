@@ -38,31 +38,52 @@
             max-width: 800px;
             margin: 0 auto;
             display: grid;
-            gap: 1rem;
+            gap: 1.5rem;
         }
         .route-card {
             background-color: #1E293B;
             border: 1px solid #334155;
             border-radius: 8px;
-            padding: 16px;
+            padding: 20px;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
         }
         .route-header {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 12px;
+            color: #38BDF8;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 8px;
             display: flex;
             justify-content: space-between;
-            font-weight: bold;
-            margin-bottom: 8px;
-            color: #38BDF8;
+            align-items: center;
+        }
+        .route-item {
+            background-color: #0F172A;
+            border: 1px solid #1E293B;
+            border-radius: 6px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .route-item:last-child {
+            margin-bottom: 0;
         }
         .route-details {
             font-size: 0.95rem;
             color: #CBD5E1;
+            margin-top: 6px;
         }
         .badge {
             background: #334155;
-            padding: 2px 8px;
+            padding: 3px 8px;
             border-radius: 4px;
             font-size: 0.8rem;
+            color: #38BDF8;
+        }
+        .sub-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
     </style>
 </head>
@@ -73,7 +94,7 @@
     </header>
 
     <main>
-        <input type="text" id="searchInput" class="search-box" placeholder="Buscar por ADES (ej. MMAA, RJAA) o tipo (RNAV, CONV)...">
+        <input type="text" id="searchInput" class="search-box" placeholder="Buscar por ADES (ej. MMMY, MMCL)...">
         <div id="routesList" class="routes-container">Cargando rutas aeronáuticas...</div>
     </main>
 
@@ -99,18 +120,43 @@
                 return;
             }
 
-            container.innerHTML = routes.map(r => `
-                <div class="route-card">
-                    <div class="route-header">
-                        <span>ADES: ${r.ades}</span>
-                        <span class="badge">${r.type}</span>
+            // Agrupar rutas por ADES
+            const grouped = routes.reduce((acc, curr) => {
+                if (!acc[curr.ades]) {
+                    acc[curr.ades] = {
+                        categoria: curr.categoria,
+                        items: []
+                    };
+                }
+                acc[curr.ades].items.push(curr);
+                return acc;
+            }, {});
+
+            // Generar HTML agrupado
+            container.innerHTML = Object.keys(grouped).map(ades => {
+                const group = grouped[ades];
+                const itemsHtml = group.items.map(r => `
+                    <div class="route-item">
+                        <div class="sub-header">
+                            <span class="badge">${r.type}</span>
+                            <span style="font-size: 0.85rem; color: #94A3B8;">RFL: ${r.rfl}</span>
+                        </div>
+                        <div class="route-details">
+                            <p><strong>Ruta:</strong> ${r.route}</p>
+                        </div>
                     </div>
-                    <div class="route-details">
-                        <p><strong>Ruta:</strong> ${r.route}</p>
-                        <p><strong>RFL:</strong> ${r.rfl} | <strong>Categoría:</strong> ${r.categoria}</p>
+                `).join('');
+
+                return `
+                    <div class="route-card">
+                        <div class="route-header">
+                            <span>ADES: ${ades}</span>
+                            <span style="font-size: 0.85rem; color: #94A3B8; font-weight: normal;">Categoría: ${group.categoria}</span>
+                        </div>
+                        ${itemsHtml}
                     </div>
-                </div>
-            `).join('');
+                `;
+            }).join('');
         }
 
         // Filtrado dinámico
