@@ -18,9 +18,21 @@
             text-align: center;
             margin-bottom: 2rem;
         }
+        .logo-title {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .logo-img {
+            width: 48px;
+            height: 48px;
+            object-fit: contain;
+            border-radius: 8px;
+        }
         h1 {
             color: #38BDF8;
-            margin-bottom: 0.5rem;
+            margin: 0;
+            font-size: 2.2rem;
         }
         .search-box {
             width: 100%;
@@ -90,8 +102,11 @@
 </head>
 <body>
     <header>
-        <h1>WProute ✈️</h1>
-        <p>Visor de Rutas Aeronáuticas (PWA)</p>
+        <div class="logo-title">
+            <img src="./iconwp.png" alt="WProute Logo" class="logo-img">
+            <h1>WProute</h1>
+        </div>
+        <p style="margin-top: 8px; color: #94A3B8;">Visor de Rutas Aeronáuticas (PWA)</p>
     </header>
 
     <main>
@@ -121,7 +136,7 @@
                 return;
             }
 
-            // Agrupar rutas estrictamente por ADES normalizado (mayúsculas y sin espacios extra)
+            // Agrupar rutas estrictamente por ADES normalizado
             const grouped = {};
             routes.forEach(r => {
                 const adesKey = r.ades.trim().toUpperCase();
@@ -183,7 +198,7 @@
                 navigator.serviceWorker.register('./sw.js')
                     .then(reg => {
                         console.log('Service Worker registrado:', reg.scope);
-                        reg.update(); // Fuerza a buscar actualizaciones del SW
+                        reg.update();
                     })
                     .catch(err => console.log('Error en Service Worker:', err));
             });
