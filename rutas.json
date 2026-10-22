@@ -1,0 +1,246 @@
+[
+  { "ades": "MMAA", "type": "RNAV", "route": "TEVOS UT116 ANALU", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMAA", "type": "CONV", "route": "MEX CUA UJ55 ACA", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMAS", "type": "RNAV", "route": "SEBON UT125 MLM UJ40 BJX", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMAS", "type": "CONV", "route": "MEX TLC UJ12 MLM UJ40 BJX", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMBT", "type": "RNAV", "route": "TEVOS UT115 HUX", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMBT", "type": "CONV", "route": "CUA UJ55 PXM LE HUX", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMCE", "type": "RNAV", "route": "ILETO UT109 VER UJ28 CME", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMCE", "type": "CONV", "route": "MEX VER UJ28 CME", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMCE", "type": "MMR 102", "route": "NOXOS UT155 AVALI DCT VER UJ28 CME", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMCL", "type": "RNAV", "route": "SEBON UT124 GDL UJ3 MZT UJ7 MELBO CUL", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMCL", "type": "CONV", "route": "TLC UJ50 GDL UJ3 PVR UJ43 MZT UJ7 CUL", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMCM", "type": "RNAV", "route": "ILETO UT109 VER UJ28 CTM", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMCM", "type": "CONV", "route": "MEX VER UJ28 CTM", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMCM", "type": "MMR 102", "route": "NOXOS UT155 AVALI DCT VER UJ28 CTM", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMCN", "type": "RNAV", "route": "ATURO UT134 ZCL UJ5 DGO UT49 CEN", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMCN", "type": "CONV", "route": "MEX SLM UJ47 XAL ZCL UJ5 DGO UJ50 DGO UJ5 CUL UT7 DRN", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMCP", "type": "RNAV", "route": "ILETO UT109 VER UJ24 CPE", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMCP", "type": "CONV", "route": "MEX VER UJ24 CPE", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMCP", "type": "CONV", "route": "MEX VER UJ28 CME UJ9 CPE", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMCP", "type": "MMR 102", "route": "NOXOS UT155 AVALI DCT VER UJ24 CPE", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMCS", "type": "RNAV", "route": "ATURO UT135 AXABA J13 CUU UJ54 CJS", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMCS", "type": "CONV", "route": "MEX SLM UJ47 PSEF UJ50 ZCL UT5 DGO UJ5 CJS", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMCU", "type": "RNAV", "route": "ATURO UT135 AXABA J13 LENEM", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMCU", "type": "CONV", "route": "AXIRI UT138 ALOVO UMM CUA MAZ TRC J13 LENEM", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMCV", "type": "RNAV", "route": "AXIRI UT138 CVM", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMCV", "type": "CONV", "route": "MEX SLM UJ47 MNA GJS UT63 CVM", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMCV", "type": "MMR 102", "route": "IKLAN UT141 LOSBA DCT TAUPU UJ42 U21 CVM", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMCZ", "type": "RNAV", "route": "ILETO UT109 VER UJ24 CPE UT86 TQO", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMCZ", "type": "MMR 102", "route": "NOXOS UT155 AVALI DCT VER UJ24 CPE UT86 TQO", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMDO", "type": "RNAV", "route": "ATURO UT134 ZCL UJ5 DGO", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMDO", "type": "CONV", "route": "MEX SLM UJ47 PSEF UJ50 ZCL UJ5 DGO", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMEP", "type": "RNAV", "route": "SEBON UT124 GDL UJ12 TNY", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMEP", "type": "CONV", "route": "MEX TLC UJ12 GDL UJ12 LED TNY", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMGL", "type": "RNAV", "route": "OVAGO UT123 ULUVO", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMGL", "type": "CONV", "route": "MEX TLC UJ50 GDL UJ125 GDL", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMHO", "type": "RNAV", "route": "ATURO UT133 AGU UJ63 DGO UT49 NABAS UT18 NABLA", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMHO", "type": "CONV", "route": "ATURO UT133 AGU UJ63 DGO UT49 NABAS UT18 NABLA", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMHO", "type": "MMR 102", "route": "MEX SLM UJ47 PSEF UJ50 DGO UJ49 ULG UJ17 CUL UJ17 HMO", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMIA", "type": "RNAV", "route": "OVAGO UT123 IKLOK UJ58 COL", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMIA", "type": "CONV", "route": "MEX TLC UJ50 COL", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMIT", "type": "RNAV", "route": "TEVOS UT113 IZT", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMIT", "type": "CONV", "route": "MEX CUA UJ55 AMDRU J13 UIT", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMLC", "type": "RNAV", "route": "ULEBA UT122 ZIH VFR", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMLC", "type": "CONV", "route": "MEX TLC UJ12 ZIH VFR", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMLM", "type": "RNAV", "route": "ATURO UT133 AGU UJ33 MZT UJ3 LMM", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMLM", "type": "CONV", "route": "ATURO UT133 AGU UJ33 MZT UJ3 LMM", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMLO", "type": "RNAV", "route": "SEBON UT125 MLM UJ40 OMINA", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMLO", "type": "CONV", "route": "TLC UJ51 MLM UJ40 OMINA", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMLP", "type": "RNAV", "route": "SEBON UT124 GDL UJ3 MZT UJ20 LAP", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMLP", "type": "CONV", "route": "MEX TLC UJ50 GDL UJ3 PVR UJ43 MZT UJ20 LAP", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMMD", "type": "RNAV", "route": "UKUNO UT156 AVIVI DCT VODIV UT42 DYSON", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMMD", "type": "CONV", "route": "ATURO UT133 AVIR V18 409 V18 DYSON", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMMD", "type": "MMR 102", "route": "NOXOS UT155 AVALI DCT AVIVI DCT VODIV UT42 DYSON", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMML", "type": "RNAV", "route": "ATURO UT134 ZCL UT10 PPE UJ7 MXL", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMML", "type": "CONV", "route": "MEX SLM UJ47 PSEF UJ50 ZCL UJ5 DGO UJ5 CUL UJ7 MXL", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMMM", "type": "RNAV", "route": "SEBON UT125 MLM", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMMM", "type": "CONV", "route": "MEX TLC UJ12 MLM", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMMT", "type": "RNAV", "route": "ILETO UT109 VER UA552 MTT", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMMT", "type": "CONV", "route": "MEX VER UA282 MTT", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMMT", "type": "MMR 102", "route": "NOXOS UT155 AVALI DCT VER UM502 MTT", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMMY", "type": "RNAV", "route": "AXIRI UT138 CVM UJ15E RETOS", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMMY", "type": "CONV", "route": "MEX SLM UJ47 MNA GJS UJ7 CVM UJ15E RETOS", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMMY", "type": "MMR 102", "route": "IKLAN UT141 LOSBA DCT TAUPU DCT CVM UJ15E RETOS", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMMZ", "type": "RNAV", "route": "SEBON UT124 GDL UJ3 MZT", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMMZ", "type": "CONV", "route": "MEX TLC UJ50 GDL UJ3 MZT", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMOX", "type": "RNAV", "route": "TEVOS UT113 OAX", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMOX", "type": "CONV", "route": "MEX CUA UJ55 AMDRU J13 OAX", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMPG", "type": "RNAV", "route": "AXIRI UT137 MTY UJ45 PNG", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMPG", "type": "CONV", "route": "AXIRI UT137 MTY ALP UJ48 PNG", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMPG", "type": "MMR 102", "route": "ATURO UT133 OTAGA DCT MELNO UT15-FTY UMB PNG", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMPR", "type": "RNAV", "route": "SEBON UT124 GDL UJ14N NOTUP", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMPR", "type": "CONV", "route": "MEX TLC UJ50 GDL UJ3 PVR", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMPS", "type": "RNAV", "route": "TEVOS UT115 PXM", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMPS", "type": "CONV", "route": "MEX CUA UJ55 PXM", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMQT", "type": "RNAV", "route": "SEBON UT144 QET", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMQT", "type": "CONV", "route": "MEX SLM UJ51 AVALI ANR UJ11 LUSY QET", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMRX", "type": "RNAV", "route": "IKLAN UT139 ONGOB UJ35 URVUT UJ53 REX", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMRX", "type": "CONV", "route": "MEX SLM UJ47 AVGUU UJ34 TMN UJ35 URVUT UJ53 REX", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMRX", "type": "MMR 102", "route": "IKLAN UT141 TAM UJ33 RAK", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMSD", "type": "RNAV", "route": "SEBON UT124 GDL UJ3 RADAP UT153 DEDKU UT14 TENAY", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMSD", "type": "CONV", "route": "MEX TLC UJ50 GDL UJ3 RADAP UT153 DEDKU UT14 TENAY", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMSP", "type": "RNAV", "route": "AXIRI UT136 ILEMA V47 SLP", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMSP", "type": "CONV", "route": "SUAMU40 ANSUB DCT ILOVA V47 SLP", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMSP", "type": "MMR 102", "route": "ATURO UT133 AT133 AT13-5 OTAGA DCT ILEMA V47 SLP", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMTC", "type": "RNAV", "route": "ATURO UT135 AXABA J13 TRC", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMTC", "type": "CONV", "route": "MEX SLM UJ47 SLP UJ50 ZCL J13 TRC", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMTG", "type": "RNAV", "route": "ILETO UT109 VER UA552 TGZ", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMTG", "type": "CONV", "route": "MEX VER UA282 TGZ", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMTG", "type": "MMR 102", "route": "NOXOS UT155 AVALI DCT VER UM502 TGZ", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMTJ", "type": "RNAV", "route": "ATURO UT133 AGU UQ104 AVRIL UJ3 TANRI", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMTJ", "type": "CONV", "route": "MEX SLM UJ47 PSEF UJ50 ZCL UJ5 DGO UJ5 CUL UJ7 PPE J5LI", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMTL", "type": "RNAV", "route": "ILETO UT109 VER UJ24 CPE UT86 IMUBI", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMTL", "type": "CONV", "route": "ILETO UT109 VER UJ24 CPE UT86 IMUBI", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMTM", "type": "RNAV", "route": "IKLAN UT141 TAM", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMTM", "type": "CONV", "route": "SUAMU40 ANSUB UL14 TAM", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMTP", "type": "RNAV", "route": "ILETO UT109 VER MA552 TGZ UJ47 TAP", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMTP", "type": "CONV", "route": "TEVOS UT115 TAP", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMTP", "type": "MMR 102", "route": "MEX VER UA282 TGZ UJ47 TAP", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMUN", "type": "RNAV", "route": "ILETO UT109 VER UJ24 GOTAS UT65 PAULE", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMUN", "type": "CONV", "route": "MEX VER UJ24 GOTAS UT65 PAULE", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMUN", "type": "MMR 102", "route": "NOXOS UT155 AVALI DCT VER UJ24 GOTAS UT65 PAULE", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMVA", "type": "RNAV", "route": "ILETO UT109 VER UJ12 VSA", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMVA", "type": "CONV", "route": "MEX VER UJ12 VSA", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMVA", "type": "MMR 102", "route": "NOXOS UT155 AVALI UT61 VER UJ12 VSA", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMVR", "type": "RNAV", "route": "UKUNO UT108 TEVET", "rfl": "NON", "categoria": "NACIONALES" },
+  { "ades": "MMVR", "type": "CONV", "route": "ILETO UT109 VER", "rfl": "NON", "categoria": "NACIONALES" },
+
+  { "ades": "MMZC", "type": "RNAV", "route": "ATURO UT135 MURDA UJ50 ZCL", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMZC", "type": "CONV", "route": "ATURO UT135 MURDA UJ50 ZCL", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMZH", "type": "RNAV", "route": "ULEBA UT122 IKLEM", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMZH", "type": "CONV", "route": "MEX CUA UJ55 ACA J13 ZIH", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "MMZO", "type": "RNAV", "route": "OVAGO UT123 IKLOK UJ58 ZLO", "rfl": "PAR", "categoria": "NACIONALES" },
+  { "ades": "MMZO", "type": "CONV", "route": "MEX TLC UJ50 ZLO", "rfl": "PAR", "categoria": "NACIONALES" },
+
+  { "ades": "RJAA", "type": "RNAV", "route": "ATURO UT135 AXABA J42 TRC J13 BECON...", "rfl": "PAR", "categoria": "INTERNACIONALES" },
+  { "ades": "RJAA", "type": "RNAV", "route": "ATURO UT134 ZCL UT10 SETRO UT12 VYLLA...", "rfl": "PAR", "categoria": "INTERNACIONALES" },
+  { "ades": "RJAA", "type": "RNAV", "route": "ATURO UT134 ZCL DCT AVISU UT60 AXASA UT41 ASUTA...", "rfl": "PAR", "categoria": "INTERNACIONALES" },
+  { "ades": "RJAA", "type": "RNAV", "route": "ATURO UT134 ZCL UT10 PPE J93 ASUTA...", "rfl": "PAR", "categoria": "INTERNACIONALES" },
+  { "ades": "RJAA", "type": "RNAV", "route": "ATURO UT133 AGU UJ33 MZT UJ3 LMM UT4 TIJ...", "rfl": "PAR", "categoria": "INTERNACIONALES" },
+
+  { "ades": "CYUL / CYYZ", "type": "RNAV", "route": "IKLAN UT140 TAM UM575 CLONN...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "CYUL / CYYZ", "type": "RNAV", "route": "IKLAN UT141 TAM J177 PSX...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "CYUL / CYYZ", "type": "MMR 101 RNAV", "route": "IKLAN UT141 TAM UM575 CLONN...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "CYUL / CYYZ", "type": "MMR 101 RNAV", "route": "IKLAN UT141 TAM J177 PSX...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "CYUL / CYYZ", "type": "CONV", "route": "MEX SLM UJ35 TMN UJ14 TAM J177 KANNA...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "CYUL / CYYZ", "type": "CONV", "route": "MEX SLM UJ81 AVSUB UJ14 TAM J177 KANNA...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+
+  { "ades": "CYVR / CYYC", "type": "RNAV", "route": "ATURO UT134 ZCL UT10 SETRO UT12 VYLLA...", "rfl": "PAR", "categoria": "INTERNACIONALES" },
+  { "ades": "CYVR / CYYC", "type": "RNAV", "route": "ATURO UT15 AXABA J42 TRC J13 BECON", "rfl": "PAR", "categoria": "INTERNACIONALES" },
+  { "ades": "CYVR / CYYC", "type": "CONV", "route": "MEX SLM UJ47 TRC J13 BECON...", "rfl": "PAR", "categoria": "INTERNACIONALES" },
+  { "ades": "CYVR / CYYC", "type": "RNAV", "route": "AXIRI UT136 TAKSO UT149 SLP UJ47 TRC J13 BECON", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "CYVR / CYYC", "type": "RNAV", "route": "AXIRI UT137 MTY UJ45 PNG...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "RNAV", "route": "TEVOS UT113 IZT J13 TAP UA317 TECUN", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "RNAV", "route": "TEVOS UT113 IZT J13 TAP UL423 PIXEN...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "RNAV", "route": "TEVOS UT113 IZT UL318 ALSAL...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "RNAV", "route": "TEVOS UT113 OAX UP659 TUKEV...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "RNAV", "route": "TEVOS UT114 HUX UL308 ANREX...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "RNAV", "route": "TEVOS UT114 HUX UL308 ANREX...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "RNAV", "route": "TEVOS UT116 ACA UL344 NOTOS...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "RNAV", "route": "ILETO UT109 UGATA UL655 ASOKU...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "RNAV", "route": "ILETO UT109 VER UA552 GABEN...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "RNAV", "route": "ILETO UT109 VER IJ12 VSA UL349 EMADA...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "RNAV", "route": "NOXOS UT106 AXOMU UM346 ULARI...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "RNAV", "route": "NOXOS UT106 AXOMU UR522 ALURU...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "RNAV", "route": "NOXOS UT155 ANADU UT106 AXOMU UR522 ALURU...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "MMR 102 RNAV", "route": "NOXOS UT155 AVALI DCT VER UT109 UGATA UL655 ASOKU...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "MMR 102 RNAV", "route": "NOXOS UT155 AVALI DCT VER UA552 GABEN...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "MMR 102 RNAV", "route": "NOXOS UT155 AVALI DCT VER IJ12 VSA UL349 EMADA...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "CONV", "route": "MEX CUA UJ39 OAX J13 TAP UA317 TECUN...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "CONV", "route": "MEX CUA UJ55 AMEKU J13 TAP UA317 TECUN...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "CONV", "route": "MEX VER UA552 GABEN...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "MDPC / MDSD / MGGT / MHLM / MNMG / MROC / MSLP / MPTO / MUHA / SAEZ / SBGR / SCEL / SKBO / SKCG / SKCL / SKRG", "type": "CONV", "route": "MEX VER UJ18 MID UB646 LENUK...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+
+  { "ades": "EDDM / EDDF / EGLL / EHAM / LEMD / LEBL / LFPG / LIRF", "type": "RNAV", "route": "IKLAN UT140 TAM UM575 CLONN...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "EDDM / EDDF / EGLL / EHAM / LEMD / LEBL / LFPG / LIRF", "type": "RNAV", "route": "IKLAN UT140 TAM J177 PSX...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "EDDM / EDDF / EGLL / EHAM / LEMD / LEBL / LFPG / LIRF", "type": "RNAV", "route": "IKLAN UT139 ONGOB UJ35 MAM...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "EDDM / EDDF / EGLL / EHAM / LEMD / LEBL / LFPG / LIRF", "type": "RNAV", "route": "NOXOS UT106 COFRE UM580 IRDOV...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "EDDM / EDDF / EGLL / EHAM / LEMD / LEBL / LFPG / LIRF", "type": "MMR 101 RNAV", "route": "IKLAN UT141 TAM UM575 CLONN...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "EDDM / EDDF / EGLL / EHAM / LEMD / LEBL / LFPG / LIRF", "type": "MMR 101 RNAV", "route": "IKLAN UT141 TAM J177 PSX...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "EDDM / EDDF / EGLL / EHAM / LEMD / LEBL / LFPG / LIRF", "type": "MMR 101 RNAV", "route": "IKLAN UT41 TAM UJ59 MAM...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+
+  { "ades": "KPHX / KSEA / KSLC", "type": "RNAV", "route": "ATURO UT134 ZCL UT10 SETRO UT12 VYLLA...", "rfl": "PAR", "categoria": "INTERNACIONALES" },
+  { "ades": "KPHX / KSEA / KSLC", "type": "RNAV", "route": "ATURO UT15 AXABA J42 TRC J13 BECON...", "rfl": "PAR", "categoria": "INTERNACIONALES" },
+  { "ades": "KPHX / KSEA / KSLC", "type": "CONV", "route": "MEX SLM UJ47 TRC J13 BECON...", "rfl": "PAR", "categoria": "INTERNACIONALES" },
+  { "ades": "KPHX / KSEA / KSLC", "type": "RNAV", "route": "AXIRI UT136 TAKSO UT149 SLP UJ47 TRC J13 BECON", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KPHX / KSEA / KSLC", "type": "RNAV", "route": "AXIRI UT137 MTY UJ45 PNG...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+
+  { "ades": "KATL / KAUS / KBOS / KCLT / KDEN / KDFW / KDTW / KEWR / KHOU / KIAD / KJFK / KMSP / KORD / KPHL / KRDU / KSAT", "type": "RNAV", "route": "IKLAN UT140 TAM UM575 CLONN...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KATL / KAUS / KBOS / KCLT / KDEN / KDFW / KDTW / KEWR / KHOU / KIAD / KJFK / KMSP / KORD / KPHL / KRDU / KSAT", "type": "RNAV", "route": "IKLAN UT140 TAM J177 PSX...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KATL / KAUS / KBOS / KCLT / KDEN / KDFW / KDTW / KEWR / KHOU / KIAD / KJFK / KMSP / KORD / KPHL / KRDU / KSAT", "type": "RNAV", "route": "IKLAN UT139 ONGOB UJ35 MAM...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KATL / KAUS / KBOS / KCLT / KDEN / KDFW / KDTW / KEWR / KHOU / KIAD / KJFK / KMSP / KORD / KPHL / KRDU / KSAT", "type": "RNAV", "route": "AXIRI UT138 CVM UJ17 REX...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KATL / KAUS / KBOS / KCLT / KDEN / KDFW / KDTW / KEWR / KHOU / KIAD / KJFK / KMSP / KORD / KPHL / KRDU / KSAT", "type": "RNAV", "route": "AXIRI UT137 MTY UJ11E NLD...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KATL / KAUS / KBOS / KCLT / KDEN / KDFW / KDTW / KEWR / KHOU / KIAD / KJFK / KMSP / KORD / KPHL / KRDU / KSAT", "type": "RNAV", "route": "AXIRI UT137 MTY UJ45 PNG...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KATL / KAUS / KBOS / KCLT / KDEN / KDFW / KDTW / KEWR / KHOU / KIAD / KJFK / KMSP / KORD / KPHL / KRDU / KSAT", "type": "RNAV", "route": "AXIRI UT138 CVM UJ41 NLD...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KATL / KAUS / KBOS / KCLT / KDEN / KDFW / KDTW / KEWR / KHOU / KIAD / KJFK / KMSP / KORD / KPHL / KRDU / KSAT", "type": "RNAV", "route": "NOXOS UT106 COFRE UM580 IRDOV...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KATL / KAUS / KBOS / KCLT / KDEN / KDFW / KDTW / KEWR / KHOU / KIAD / KJFK / KMSP / KORD / KPHL / KRDU / KSAT", "type": "CONV", "route": "MEX SLM UJ35 TMN UJ14 TAM J177 KANNA...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KATL / KAUS / KBOS / KCLT / KDEN / KDFW / KDTW / KEWR / KHOU / KIAD / KJFK / KMSP / KORD / KPHL / KRDU / KSAT", "type": "CONV", "route": "MEX SLM UJ35 MAM...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KATL / KAUS / KBOS / KCLT / KDEN / KDFW / KDTW / KEWR / KHOU / KIAD / KJFK / KMSP / KORD / KPHL / KRDU / KSAT", "type": "CONV", "route": "MEX SLM UJ35 URVUT UJ53 REX...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KATL / KAUS / KBOS / KCLT / KDEN / KDFW / KDTW / KEWR / KHOU / KIAD / KJFK / KMSP / KORD / KPHL / KRDU / KSAT", "type": "CONV", "route": "MEX SLM UJ35 TMN UJ41 NLD...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KATL / KAUS / KBOS / KCLT / KDEN / KDFW / KDTW / KEWR / KHOU / KIAD / KJFK / KMSP / KORD / KPHL / KRDU / KSAT", "type": "MMR 101 RNAV", "route": "IKLAN UT141 TAM UM575 CLONN...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KATL / KAUS / KBOS / KCLT / KDEN / KDFW / KDTW / KEWR / KHOU / KIAD / KJFK / KMSP / KORD / KPHL / KRDU / KSAT", "type": "MMR 101 RNAV", "route": "IKLAN UT141 TAM J177 PSX...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KATL / KAUS / KBOS / KCLT / KDEN / KDFW / KDTW / KEWR / KHOU / KIAD / KJFK / KMSP / KORD / KPHL / KRDU / KSAT", "type": "MMR 101 RNAV", "route": "IKLAN UT41 TAM UJ59 MAM...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KATL / KAUS / KBOS / KCLT / KDEN / KDFW / KDTW / KEWR / KHOU / KIAD / KJFK / KMSP / KORD / KPHL / KRDU / KSAT", "type": "MMR 101 RNAV", "route": "IKLAN UT141 TAM UJ53 REX...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KATL / KAUS / KBOS / KCLT / KDEN / KDFW / KDTW / KEWR / KHOU / KIAD / KJFK / KMSP / KORD / KPHL / KRDU / KSAT", "type": "MMR 101 RNAV", "route": "IKLAN UT141 TAM UJ15 CVM J21 LRD...", "rfl": "PAR", "categoria": "INTERNACIONALES" },
+  { "ades": "KATL / KAUS / KBOS / KCLT / KDEN / KDFW / KDTW / KEWR / KHOU / KIAD / KJFK / KMSP / KORD / KPHL / KRDU / KSAT", "type": "MMR 101 RNAV", "route": "ATURO U133 OTAGA DCT MELNO UT137 MTY...", "rfl": "PAR", "categoria": "INTERNACIONALES" },
+
+  { "ades": "KMCO / KMIA / KTPA", "type": "RNAV", "route": "NOXOS UT106 COFRE UM580 IRDOV...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KMCO / KMIA / KTPA", "type": "RNAV", "route": "NOXOS UT106 AXOMU UM346 ULARI...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KMCO / KMIA / KTPA", "type": "RNAV", "route": "NOXOS UT106 AXOMU UR522 ALURU...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KMCO / KMIA / KTPA", "type": "RNAV", "route": "NOXOS UT155 UT106 AXOMU UR522 ALURU...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+  { "ades": "KMCO / KMIA / KTPA", "type": "CONV", "route": "MEX VER UJ18 MID UB646 LENUK...", "rfl": "NON", "categoria": "INTERNACIONALES" },
+
+  { "ades": "KLAS / KLAX / KOAK / KSAN / KSMF / KSFO", "type": "RNAV", "route": "ATURO UT134 ZCL UT10 PPE J93 ASUTA...", "rfl": "PAR", "categoria": "INTERNACIONALES" },
+  { "ades": "KLAS / KLAX / KOAK / KSAN / KSMF / KSFO", "type": "RNAV", "route": "ATURO UT134 ZCL DCT AVISU UT60 AXASA UT41 ASUTA...", "rfl": "PAR", "categoria": "INTERNACIONALES" },
+  { "ades": "KLAS / KLAX / KOAK / KSAN / KSMF / KSFO", "type": "RNAV", "route": "ATURO UT133 AGU UJ33 MZT UJ3 LMM UT4 TIJ...", "rfl": "PAR", "categoria": "INTERNACIONALES" },
+  { "ades": "KLAS / KLAX / KOAK / KSAN / KSMF / KSFO", "type": "RNAV", "route": "ATURO UT134 ZCL UT10 SETRO UT12 VYLLA...", "rfl": "PAR", "categoria": "INTERNACIONALES" },
+  { "ades": "KLAS / KLAX / KOAK / KSAN / KSMF / KSFO", "type": "CONV", "route": "MEX SLM UJ47 SLP UJ50 ZCL UJ5 DGO UJ6 CUL UJ7 PPE J93 ASUTA...", "rfl": "PAR", "categoria": "INTERNACIONALES" }
+]
