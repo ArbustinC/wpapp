@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WProute - Visor de Rutas Aeronáuticas</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0F172A">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0F172A;
+            color: #F8FAFC;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        h1 {
+            color: #38BDF8;
+            margin-bottom: 0.5rem;
+        }
+        .search-box {
+            width: 100%;
+            max-width: 500px;
+            padding: 12px;
+            font-size: 1rem;
+            border-radius: 8px;
+            border: 1px solid #334155;
+            background-color: #1E293B;
+            color: #fff;
+            margin: 0 auto 2rem auto;
+            display: block;
+        }
+        .routes-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: grid;
+            gap: 1rem;
+        }
+        .route-card {
+            background-color: #1E293B;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            padding: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        .route-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #38BDF8;
+        }
+        .route-details {
+            font-size: 0.95rem;
+            color: #CBD5E1;
+        }
+        .badge {
+            background: #334155;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WProute ✈️</h1>
+        <p>Visor de Rutas Aeronáuticas (PWA)</p>
+    </header>
+
+    <main>
+        <input type="text" id="searchInput" class="search-box" placeholder="Buscar por ADES (ej. MMAA, RJAA) o tipo (RNAV, CONV)...">
+        <div id="routesList" class="routes-container">Cargando rutas aeronáuticas...</div>
+    </main>
+
+    <script>
+        let rutasData = [];
+
+        // Cargar el archivo rutas.json
+        fetch('./rutas.json')
+            .then(response => response.json())
+            .then(data => {
+                rutasData = data;
+                renderRoutes(rutasData);
+            })
+            .catch(error => {
+                console.error('Error cargando rutas.json:', error);
+                document.getElementById('routesList').innerHTML = '<p style="text-align:center; color: #EF4444;">Error al cargar los datos de rutas.</p>';
+            });
+
+        function renderRoutes(routes) {
+            const container = document.getElementById('routesList');
+            if (routes.length === 0) {
+                container.innerHTML = '<p style="text-align:center;">No se encontraron rutas.</p>';
+                return;
+            }
+
+            container.innerHTML = routes.map(r => `
+                <div class="route-card">
+                    <div class="route-header">
+                        <span>ADES: ${r.ades}</span>
+                        <span class="badge">${r.type}</span>
+                    </div>
+                    <div class="route-details">
+                        <p><strong>Ruta:</strong> ${r.route}</p>
+                        <p><strong>RFL:</strong> ${r.rfl} | <strong>Categoría:</strong> ${r.categoria}</p>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Filtrado dinámico
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase();
+            const filtered = rutasData.filter(r => 
+                r.ades.toLowerCase().includes(query) || 
+                r.type.toLowerCase().includes(query) ||
+                r.route.toLowerCase().includes(query) ||
+                r.categoria.toLowerCase().includes(query)
+            );
+            renderRoutes(filtered);
+        });
+
+        // Registrar el Service Worker para soporte offline
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(reg => console.log('Service Worker registrado:', reg.scope))
+                    .catch(err => console.log('Error en Service Worker:', err));
+            });
+        }
+    </script>
+</body>
+</html>
